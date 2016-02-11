@@ -1,13 +1,25 @@
 # -*- coding: utf-8 -*-
-import sys.argv
-
-print sys.argv
-
+import sys
+# calculadora(Suma, op1, op2)
 
 
+Funcion = sys.argv[1]
+Op1 = float(sys.argv[2])
+Op2 = float(sys.argv[3])
+if Funcion == "suma":
+    print str(Op1), "+", str(Op2), "=", (Op1+Op2)
+if Funcion == "resta":
+    print str(Op1), "-", str(Op2), "=", (Op1-Op2)
+if Funcion == "divide":
+    print str(Op1), "/", str(Op2), "=", (Op1/Op2)
+if Funcion == "multiplica":
+    print str(Op1), "*", str(Op2), "=", (Op1*Op2)
 
 
 
+#print "Arg0: ", sys.argv[0]
+#print "Number of arguments: ", len(sys.argv)
+#print "The arguments are: " , str(sys.argv)
 
 
 """
