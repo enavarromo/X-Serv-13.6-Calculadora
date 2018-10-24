@@ -22,6 +22,8 @@ except:
 
 #if operador in funciones:
 
+
+
 #else sys.exit("Operadores: suma, resta, divide, multiplica")
 
 
